@@ -1,0 +1,115 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  width: 75%;
+  margin-right: 0 auto; 
+}
+
+a {
+  color: black;
+}
+
+img#logo {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul#nav {
+  display: flex;
+  justify-content: center;  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul#nav li {
+  display: flex;
+  justify-content: center;
+}
+
+ul#login {
+  list-style-type: none;
+}
+
+img#profile{
+  height: 200px;
+  float: left;
+  padding-right: 20px;
+}
+
+div#profilesummary {
+  margin-left: 20px;
+}
+
+div#profilecontent {
+  height: 250px;
+  border-width: 5px;
+  border-color: black;
+  margin-right: auto;
+  margin-left: auto;
+  width: 500px;
+  background-color: rgb(69, 177, 24)
+}
+
+table#leaderboard th {
+  font-size: 30px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+table#leaderboard {
+  width: 350px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+table#leaderboard tr:nth-child(even) {
+  background: rgb(255, 210, 50);
+}
+
+table#leaderboard tr:nth-child(odd) {
+  background: rgb(255, 140, 50);
+}
+
+table#leaderboard td {
+  font-size: 30px;
+  padding-right: 20px;
+  text-align: center;
+  
+}
+
+div#leaderboardcontent {
+  width: 150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1#leadertitle {
+  font-size: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+
+.navbutton {
+  background-color: rgb(255, 180, 50);
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 30px;
+  border-radius: 15px;
+}
+
+#map {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* iframe {
+  margin-right: auto;
+  margin-left: auto;
+
+} */
